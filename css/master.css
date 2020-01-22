@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato';
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-fullwidth {
+    background-color: #0d325a;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0d325a;
+}
+
+header {
+    height: 70px;
+    background-color: #0d325a;
+}
+
+.banner {
+    height: 500px;
+    position: relative;
+}
+
+.banner::after {
+    content: url();
+    position: absolute;
+    left: 0%;
+    right: 15px;
+    transform-origin: 0 0;
+    transform: scale(.5) translate(-70px,25px);
+}
+.grigio {
+    background-color: gray;
+}
+
+.riga-grigia {
+    height: 100px;
+    background-color: lightgray;
+}
+
+.bianco {
+    background-color: white;
+}
+
+.riga-bianca {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.cards {
+    width: 33.33%;
+    float: left;
+    /* da cancellare */
+    height: 200px;
+    background-color: purple;
+    border: 1px solid black;
+}
+
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 5px;
+
+}
+
+.topnav a:hover{
+  background-color: #white;
+  color: orange;
+}
+
+.topnav a.active {
+  background-color: #0d325a;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#login {
+    background-color: #0d325a;
+    border-radius: 10%;
+}
+
+.testo  {
+    width: 60%;
+    text-align: left;
+    position:absolute;
+    bottom: 45%;
+    font-size: 20px;
+}
+
+.testo2 {
+    width: AUTO;
+    text-align: left;
+    position:absolute;
+    bottom: 45%;
+    font-size: 12.5px;
+    background: Green;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+
+}
+
+button {
+    background-color: green;
+
+}
+
+.image {
+    object-fit: cover;
+}
+
+.logoflu  {
+    font-size: 0PX;
+    height: 70px;
+    width: 10%;
+    position: relative;
+    float: left;
+}
